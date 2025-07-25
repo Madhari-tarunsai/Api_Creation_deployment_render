@@ -7,7 +7,7 @@ async function conntect_dataBase(){
         console.log("database connected sucessfully")
 
     }catch(error){
-        console.log("database not connected please check the connections")
+        console.log("database not connected please check the connections",error)
 
     }
 }
